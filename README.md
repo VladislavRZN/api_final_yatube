@@ -15,11 +15,11 @@ git clone https://github.com/VladislavRZN/api_final_yatube.git
 cd api_final_yatube
 
 Cоздать и активировать виртуальное окружение:
-# Команды для Windows:
+команды для Windows:
 python -m venv venv
 source venv/Scripts/activate
 
-# Команды для Linux и macOS:
+командs для Linux и macOS:
 python3 -m venv venv
 source venv/bin/activate
 
@@ -34,6 +34,7 @@ python manage.py migrate
 python3 manage.py runserver
 
 Примеры запросов к API:
+
 Получить список всех постов (GET):
 http://127.0.0.1:8000/api/v1/posts/
 Получить определенный пост (GET):
@@ -46,7 +47,6 @@ http://127.0.0.1:8000/api/v1/posts/1/comments/
 
 http://127.0.0.1:8000/api/v1/groups/
 Создать новый пост (POST):
-
 (Требуется аутентификация)
 
 http://127.0.0.1:8000/api/v1/posts/
