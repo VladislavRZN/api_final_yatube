@@ -11,7 +11,7 @@ Yatube - это учебный проект курса "Python-разработ�
 Клонировать репозиторий. 
 
 Список команд для командной строки
-git clone https://github.com/VladislavRZN/api_final_yatube.git
+git clone git@github.com:VladislavRZN/api_final_yatube.git
 
 cd api_final_yatube
 
